@@ -24,7 +24,7 @@ public class exercicios {
        }
        return avg / array.length;
 
-    }
+    };
 
     private static int getMin(int[] array) {
         int min = 0;
@@ -35,7 +35,7 @@ public class exercicios {
 
         }
         return min;
-    }
+    };
 
     private static int getMax(int[] array) {
         int max = 0;
@@ -46,12 +46,12 @@ public class exercicios {
 
         }
         return max;
-    }
+    };
 
     public static float calculatorRectongPerimeter(float width,float height){
         float perimeter = (width* 2) + (height * 2);
         return perimeter;
-    }
+    };
     public static float calculatorPavingstone(float width,float height,float length){
         float pavingstone = length * width * height ;
         return pavingstone;
